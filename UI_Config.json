@@ -1,0 +1,41 @@
+﻿{
+  "output_file": "settings.json",
+    "Command": {
+    "type": "textbox",
+    "value": "!discordclip",
+  	"label": "Command Name",
+    "tooltip": "The command the bot will respond to",
+  	"group": "General"
+  },
+    "Permission": {
+    "type": "dropdown",
+    "value": "Caster",
+    "items": ["Everyone","Regular","Subscriber","GameWisp Subscriber","User_Specific","Min_Rank","Min_Points","Min_Hours","Moderator","Editor","Caster"],
+    "label": "Permission level",
+    "tooltip": "Set the permission level for the command",
+    "group": "General"
+  },
+    "PermissionInfo": {
+    "type": "textbox",
+    "value": "",
+    "label": "Permission level info",
+    "tooltip": "Set the user, rank or tier for permission",
+    "group": "General"
+  },
+    "Channel": {
+    "type": "textbox",
+    "value": "",
+    "label": "Channel Name",
+    "tooltip": "Channel Name for clips. Keep empty for Stream Channel",
+    "group": "ClipSettings"
+  },
+    "Period": {
+    "type": "dropdown",
+    "value": "day",
+    "items": ["day","week","month","all"],
+    "label": "Period",
+    "tooltip": "Period during which clips were made",
+    "group": "ClipSettings"
+  },
+
+}
