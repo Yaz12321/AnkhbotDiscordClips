@@ -1,0 +1,4 @@
+If the script is not working, or is causing issues: please let me know what happens.
+Some scripts have a built-in error logging system. Check if the script folder has an ErrorLog.txt file. If it exists, please send me the latest error.
+If it does not: In the Scripts tab (on the bot), click on the Bug icon (Errors) (see image in this same folder), click refresh and try the script again. 
+Wait until the problem occurs again, and send me what error you get.
